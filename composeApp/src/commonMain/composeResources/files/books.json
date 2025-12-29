@@ -1,0 +1,1692 @@
+{
+  "numFound": 123,
+  "start": 0,
+  "numFoundExact": true,
+  "num_found": 123,
+  "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+  "q": "Kotlin",
+  "offset": null,
+  "docs": [
+    {
+      "author_key": [
+        "OL8010072A",
+        "OL9653008A",
+        "OL9618449A",
+        "OL2970929A",
+        "OL6429220A"
+      ],
+      "author_name": [
+        "raywenderlich Tutorial Team",
+        "Irina Galata",
+        "Victoria Gonda",
+        "Joe Howard",
+        "Ellen Shapiro"
+      ],
+      "cover_edition_key": "OL40827359M",
+      "cover_i": 13764495,
+      "edition_count": 2,
+      "first_publish_year": 2018,
+      "key": "/works/OL25550347W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 458,
+      "title": "Kotlin Apprentice"
+    },
+    {
+      "author_key": [
+        "OL7497358A",
+        "OL555565A",
+        "OL8614437A",
+        "OL8614438A"
+      ],
+      "author_name": [
+        "Matthew Mathias",
+        "John Gallagher",
+        "David Greenhalgh",
+        "Josh Skeen"
+      ],
+      "cover_edition_key": "OL34780722M",
+      "cover_i": 12404606,
+      "edition_count": 6,
+      "first_publish_year": 2018,
+      "key": "/works/OL22541716W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 511,
+      "title": "Kotlin Programming",
+      "ratings_average": 4,
+      "ratings_count": 1
+    },
+    {
+      "author_key": [
+        "OL7496419A"
+      ],
+      "author_name": [
+        "Sufyan bin Uzayr"
+      ],
+      "cover_edition_key": "OL38795112M",
+      "cover_i": 14736856,
+      "edition_count": 3,
+      "first_publish_year": 2022,
+      "key": "/works/OL28348161W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin"
+    },
+    {
+      "author_key": [
+        "OL10266979A"
+      ],
+      "author_name": [
+        "Sufyan Bin Uzayr"
+      ],
+      "cover_edition_key": "OL39705841M",
+      "cover_i": 14729937,
+      "edition_count": 2,
+      "first_publish_year": 2022,
+      "key": "/works/OL28860008W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin"
+    },
+    {
+      "author_key": [
+        "OL3958191A"
+      ],
+      "author_name": [
+        "Pierre-Yves Saumont"
+      ],
+      "cover_edition_key": "OL27334157M",
+      "cover_i": 8798807,
+      "edition_count": 2,
+      "first_publish_year": 2019,
+      "key": "/works/OL20153768W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 480,
+      "title": "The Joy of Kotlin"
+    },
+    {
+      "author_key": [
+        "OL7494700A",
+        "OL7494701A"
+      ],
+      "author_name": [
+        "Dmitry Jemerov",
+        "Svetlana Isakova"
+      ],
+      "cover_edition_key": "OL26832658M",
+      "cover_i": 8507716,
+      "edition_count": 2,
+      "first_publish_year": 2017,
+      "key": "/works/OL19541946W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 360,
+      "title": "Kotlin in Action",
+      "ratings_average": 4.5,
+      "ratings_count": 2
+    },
+    {
+      "author_key": [
+        "OL11052264A"
+      ],
+      "author_name": [
+        "Dev Books"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2018,
+      "key": "/works/OL30040713W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin"
+    },
+    {
+      "author_key": [
+        "OL7496419A"
+      ],
+      "author_name": [
+        "Sufyan bin Uzayr"
+      ],
+      "edition_count": 3,
+      "first_publish_year": 2022,
+      "key": "/works/OL28020573W",
+      "language": [
+        "eng"
+      ],
+      "title": "Mastering Kotlin"
+    },
+    {
+      "author_key": [
+        "OL1437280A"
+      ],
+      "author_name": [
+        "Brett McLaughlin"
+      ],
+      "cover_edition_key": "OL34731444M",
+      "cover_i": 13219969,
+      "edition_count": 3,
+      "first_publish_year": 2021,
+      "key": "/works/OL21707156W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 450,
+      "title": "Programming Kotlin Applications"
+    },
+    {
+      "author_key": [
+        "OL10266979A"
+      ],
+      "author_name": [
+        "Sufyan Bin Uzayr"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2022,
+      "key": "/works/OL28487272W",
+      "language": [
+        "eng"
+      ],
+      "title": "Mastering Kotlin"
+    },
+    {
+      "author_key": [
+        "OL7494997A"
+      ],
+      "author_name": [
+        "Peter Späth"
+      ],
+      "cover_edition_key": "OL39564898M",
+      "cover_i": 13231366,
+      "edition_count": 1,
+      "first_publish_year": 2023,
+      "key": "/works/OL28806899W",
+      "language": [
+        "eng"
+      ],
+      "title": "Pro Android with Kotlin"
+    },
+    {
+      "author_key": [
+        "OL10884795A"
+      ],
+      "author_name": [
+        "Thorsten Schleinzer"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2018,
+      "key": "/works/OL29721929W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin Compact"
+    },
+    {
+      "author_key": [
+        "OL3673370A",
+        "OL9573756A"
+      ],
+      "author_name": [
+        "Duncan McGregor",
+        "Nat Pryce"
+      ],
+      "edition_count": 3,
+      "first_publish_year": 2021,
+      "key": "/works/OL25321149W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 396,
+      "title": "Java to Kotlin"
+    },
+    {
+      "author_key": [
+        "OL8360836A"
+      ],
+      "author_name": [
+        "Moaml Mohmmed"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2019,
+      "key": "/works/OL30246386W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin Basics"
+    },
+    {
+      "author_key": [
+        "OL7495886A"
+      ],
+      "author_name": [
+        "Ken Kousen"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2019,
+      "key": "/works/OL21334209W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 225,
+      "title": "Kotlin Cookbook"
+    },
+    {
+      "author_key": [
+        "OL13622548A",
+        "OL7494701A",
+        "OL12812406A",
+        "OL7494700A"
+      ],
+      "author_name": [
+        "Roman Elizarov",
+        "Svetlana Isakova",
+        "Sebastian Aigner",
+        "Dmitry Jemerov"
+      ],
+      "cover_edition_key": "OL52201617M",
+      "cover_i": 14825768,
+      "edition_count": 2,
+      "first_publish_year": 2024,
+      "key": "/works/OL37881340W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin in Action, Second Edition"
+    },
+    {
+      "author_key": [
+        "OL8010072A",
+        "OL9653009A",
+        "OL9653010A"
+      ],
+      "author_name": [
+        "raywenderlich Tutorial Team",
+        "Filip Babi?",
+        "Nishant Srivastava"
+      ],
+      "cover_edition_key": "OL34269997M",
+      "cover_i": 13250056,
+      "edition_count": 2,
+      "first_publish_year": 2019,
+      "key": "/works/OL25550348W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin Coroutines by Tutorials"
+    },
+    {
+      "author_key": [
+        "OL7792160A"
+      ],
+      "author_name": [
+        "Nate Ebel"
+      ],
+      "cover_edition_key": "OL31851970M",
+      "cover_i": 10541840,
+      "edition_count": 2,
+      "first_publish_year": 2019,
+      "key": "/works/OL24143784W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 434,
+      "title": "Mastering Kotlin"
+    },
+    {
+      "author_key": [
+        "OL8010072A",
+        "OL11311341A",
+        "OL9653008A",
+        "OL9653013A"
+      ],
+      "author_name": [
+        "raywenderlich Tutorial Team",
+        "Márton Braun",
+        "Irina Galata",
+        "Matei Suica"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2021,
+      "key": "/works/OL30945821W",
+      "language": [
+        "eng"
+      ],
+      "title": "Data Structures & Algorithms in Kotlin"
+    },
+    {
+      "author_key": [
+        "OL9091522A",
+        "OL13898213A"
+      ],
+      "author_name": [
+        "José Dimas Luján Castillo",
+        "Ron Veen"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2025,
+      "key": "/works/OL44559755W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 414,
+      "title": "Kotlin for Java Developers"
+    },
+    {
+      "author_key": [
+        "OL3288939A"
+      ],
+      "author_name": [
+        "Tony Stark"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2022,
+      "key": "/works/OL28867141W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin for Dummies"
+    },
+    {
+      "author_key": [
+        "OL13057275A"
+      ],
+      "author_name": [
+        "Carolann Elguezabal"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2021,
+      "key": "/works/OL36280204W",
+      "language": [
+        "eng"
+      ],
+      "title": "Developing Android Apps with Kotlin : Using Kotlin for Android Development"
+    },
+    {
+      "author_key": [
+        "OL3384199A"
+      ],
+      "author_name": [
+        "Bruce Herbert"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2019,
+      "key": "/works/OL29936942W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin Programming"
+    },
+    {
+      "author_key": [
+        "OL7497826A"
+      ],
+      "author_name": [
+        "Ray Yao"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2019,
+      "key": "/works/OL30065771W",
+      "language": [
+        "eng"
+      ],
+      "title": "KOTLIN"
+    },
+    {
+      "author_key": [
+        "OL3363548A",
+        "OL7602611A"
+      ],
+      "author_name": [
+        "Nicholas Wilson",
+        "Jamie Mayfield"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2019,
+      "key": "/works/OL30158500W",
+      "language": [
+        "eng"
+      ],
+      "title": "Advanced Practical Kotlin"
+    },
+    {
+      "author_key": [
+        "OL8486854A"
+      ],
+      "author_name": [
+        "moaml mohmmed"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2019,
+      "key": "/works/OL29980426W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin for Android Developers"
+    },
+    {
+      "author_key": [
+        "OL9929702A",
+        "OL9929703A",
+        "OL8216612A",
+        "OL79155A"
+      ],
+      "author_name": [
+        "Pierre-Olivier Laurence",
+        "Amanda Hinchman-Dominguez",
+        "G. Blake Meike",
+        "Mike Dunn"
+      ],
+      "edition_count": 3,
+      "first_publish_year": 2021,
+      "key": "/works/OL26338807W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 325,
+      "title": "Programming Android with Kotlin"
+    },
+    {
+      "author_key": [
+        "OL63258A"
+      ],
+      "author_name": [
+        "Sir Max Beerbohm"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2019,
+      "key": "/works/OL30188033W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin for Android Developers"
+    },
+    {
+      "author_key": [
+        "OL7495089A"
+      ],
+      "author_name": [
+        "Samuel Urbanowicz"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2018,
+      "key": "/works/OL39659847W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 242,
+      "title": "Kotlin Standard Library Cookbook"
+    },
+    {
+      "author_key": [
+        "OL7495590A"
+      ],
+      "author_name": [
+        "Iyanu Adelekan"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2018,
+      "key": "/works/OL39661783W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 500,
+      "title": "Kotlin Programming by Example"
+    },
+    {
+      "author_key": [
+        "OL7495201A"
+      ],
+      "author_name": [
+        "Neil Smyth"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2022,
+      "key": "/works/OL28134512W",
+      "language": [
+        "eng"
+      ],
+      "title": "Android Studio Chipmunk Essentials - Kotlin Edition"
+    },
+    {
+      "author_key": [
+        "OL7495201A"
+      ],
+      "author_name": [
+        "Neil Smyth"
+      ],
+      "edition_count": 3,
+      "first_publish_year": 2021,
+      "key": "/works/OL25612301W",
+      "language": [
+        "eng"
+      ],
+      "title": "Android Studio Arctic Fox Essentials - Kotlin Edition"
+    },
+    {
+      "author_key": [
+        "OL7495301A",
+        "OL10155471A"
+      ],
+      "author_name": [
+        "Alexey Soshin",
+        "Anton Arhipov"
+      ],
+      "edition_count": 3,
+      "first_publish_year": 2022,
+      "key": "/works/OL38126176W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 474,
+      "title": "Kotlin Design Patterns and Best Practices"
+    },
+    {
+      "author_key": [
+        "OL3332643A",
+        "OL7497321A"
+      ],
+      "author_name": [
+        "Stephen Samuel",
+        "Stefan Bocutiu"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2019,
+      "key": "/works/OL25240593W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 514,
+      "title": "Learn Kotlin Programming"
+    },
+    {
+      "author_key": [
+        "OL7495201A"
+      ],
+      "author_name": [
+        "Neil Smyth"
+      ],
+      "cover_edition_key": "OL40170711M",
+      "cover_i": 13484345,
+      "edition_count": 2,
+      "first_publish_year": 2022,
+      "key": "/works/OL29205601W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 820,
+      "title": "Android Studio Dolphin Essentials - Kotlin Edition"
+    },
+    {
+      "author_key": [
+        "OL13046872A"
+      ],
+      "author_name": [
+        "Reuben Murdoch"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2021,
+      "key": "/works/OL36245973W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin and Android : Learn to Architect and Develop Android Apps in the Kotlin Programming Language"
+    },
+    {
+      "author_key": [
+        "OL9754183A",
+        "OL9754184A",
+        "OL7355582A"
+      ],
+      "author_name": [
+        "Marco Vermeulen",
+        "Rúnar Bjarnason",
+        "Paul Chiusano"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2021,
+      "key": "/works/OL25789252W",
+      "language": [
+        "eng"
+      ],
+      "title": "Functional Programming in Kotlin"
+    },
+    {
+      "author_key": [
+        "OL11393766A"
+      ],
+      "author_name": [
+        "John I. Moore"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2022,
+      "key": "/works/OL34285821W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 380,
+      "title": "Compiler Design Using Kotlin"
+    },
+    {
+      "author_key": [
+        "OL11372990A",
+        "OL13522016A"
+      ],
+      "author_name": [
+        "Denis Panjuta",
+        "Loveth Nwokike"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2024,
+      "key": "/works/OL37588501W",
+      "language": [
+        "eng"
+      ],
+      "title": "Tiny Android Projects Using Kotlin"
+    },
+    {
+      "author_key": [
+        "OL2726969A"
+      ],
+      "author_name": [
+        "Venkat Subramaniam"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2019,
+      "key": "/works/OL21337664W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 450,
+      "title": "Programming Kotlin"
+    },
+    {
+      "author_key": [
+        "OL10084628A"
+      ],
+      "author_name": [
+        "Lina POLLY"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2020,
+      "key": "/works/OL26880764W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin and Android Programming : Kotlin for Beginners : Basic Android Programming : Professional Android Application Development"
+    },
+    {
+      "author_key": [
+        "OL8010072A",
+        "OL9653008A",
+        "OL2970929A",
+        "OL6429220A"
+      ],
+      "author_name": [
+        "raywenderlich Tutorial Team",
+        "Irina Galata",
+        "Joe Howard",
+        "Ellen Shapiro"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2019,
+      "key": "/works/OL25550353W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin Apprentice (Second Edition)"
+    },
+    {
+      "author_key": [
+        "OL8360836A"
+      ],
+      "author_name": [
+        "Moaml Mohmmed"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2019,
+      "key": "/works/OL30155383W",
+      "language": [
+        "eng"
+      ],
+      "title": "Learn Kotlin in One Day"
+    },
+    {
+      "author_key": [
+        "OL7494997A"
+      ],
+      "author_name": [
+        "Peter Späth"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2023,
+      "key": "/works/OL36457296W",
+      "language": [
+        "eng"
+      ],
+      "title": "Frontend Development with JavaFX and Kotlin"
+    },
+    {
+      "author_key": [
+        "OL7495201A"
+      ],
+      "author_name": [
+        "Neil Smyth"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2024,
+      "key": "/works/OL38035868W",
+      "language": [
+        "eng"
+      ],
+      "title": "Android Studio Iguana Essentials - Kotlin Edition"
+    },
+    {
+      "author_key": [
+        "OL7495201A"
+      ],
+      "author_name": [
+        "Neil Smyth"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2023,
+      "key": "/works/OL35801094W",
+      "language": [
+        "eng"
+      ],
+      "title": "Android Studio Flamingo Essentials - Kotlin Edition"
+    },
+    {
+      "author_key": [
+        "OL7495201A"
+      ],
+      "author_name": [
+        "Neil Smyth"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2024,
+      "key": "/works/OL42441394W",
+      "language": [
+        "eng"
+      ],
+      "title": "Android Studio Ladybug Essentials - Kotlin Edition"
+    },
+    {
+      "author_key": [
+        "OL7495201A"
+      ],
+      "author_name": [
+        "Neil Smyth"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2023,
+      "key": "/works/OL36723134W",
+      "language": [
+        "eng"
+      ],
+      "title": "Android Studio Giraffe Essentials - Kotlin Edition"
+    },
+    {
+      "author_key": [
+        "OL7495201A"
+      ],
+      "author_name": [
+        "Neil Smyth"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2024,
+      "key": "/works/OL38381107W",
+      "language": [
+        "eng"
+      ],
+      "title": "Android Studio Jellyfish Essentials - Kotlin Edition"
+    },
+    {
+      "author_key": [
+        "OL7495201A"
+      ],
+      "author_name": [
+        "Neil Smyth"
+      ],
+      "cover_edition_key": "OL46358356M",
+      "cover_i": 14107363,
+      "edition_count": 2,
+      "first_publish_year": 2023,
+      "key": "/works/OL34202067W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 826,
+      "title": "Android Studio Electric Eel Essentials - Kotlin Edition"
+    },
+    {
+      "author_key": [
+        "OL7497826A"
+      ],
+      "author_name": [
+        "Ray Yao"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2020,
+      "key": "/works/OL30656662W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin in 8 Hours"
+    },
+    {
+      "author_key": [
+        "OL7494997A",
+        "OL7494891A",
+        "OL1438405A",
+        "OL1395421A"
+      ],
+      "author_name": [
+        "Peter Späth",
+        "Iuliana Cosmina",
+        "Rob Harrop",
+        "Chris Schaefer"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2023,
+      "key": "/works/OL36046810W",
+      "language": [
+        "eng"
+      ],
+      "title": "Pro Spring 6 with Kotlin"
+    },
+    {
+      "author_key": [
+        "OL7494787A"
+      ],
+      "author_name": [
+        "Peter Sommerhoff"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2018,
+      "key": "/works/OL25790364W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin for Android App Development"
+    },
+    {
+      "author_key": [
+        "OL786987A"
+      ],
+      "author_name": [
+        "John Hunt"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2021,
+      "key": "/works/OL25334960W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 410,
+      "title": "Beginners Guide to Kotlin Programming"
+    },
+    {
+      "author_key": [
+        "OL7640901A"
+      ],
+      "author_name": [
+        "Justin Lee"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2018,
+      "key": "/works/OL27416938W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin from the Ground Up"
+    },
+    {
+      "author_key": [
+        "OL8360836A"
+      ],
+      "author_name": [
+        "Moaml Mohmmed"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2019,
+      "key": "/works/OL30058949W",
+      "language": [
+        "eng"
+      ],
+      "title": "Basics of Programming in Kotlin"
+    },
+    {
+      "author_key": [
+        "OL8486854A"
+      ],
+      "author_name": [
+        "moaml mohmmed"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2019,
+      "key": "/works/OL29791721W",
+      "language": [
+        "eng"
+      ],
+      "title": "Basics of Programming in Kotlin"
+    },
+    {
+      "author_key": [
+        "OL9745055A"
+      ],
+      "author_name": [
+        "Haksun Li"
+      ],
+      "cover_edition_key": "OL39565519M",
+      "cover_i": 13238508,
+      "edition_count": 1,
+      "first_publish_year": 2022,
+      "key": "/works/OL28807172W",
+      "language": [
+        "eng"
+      ],
+      "title": "Numerical Methods Using Kotlin"
+    },
+    {
+      "author_key": [
+        "OL7496764A"
+      ],
+      "author_name": [
+        "Miguel Angel Castiblanco Torres"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2018,
+      "key": "/works/OL39659844W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 266,
+      "title": "Learning Concurrency in Kotlin"
+    },
+    {
+      "author_key": [
+        "OL3784556A"
+      ],
+      "author_name": [
+        "Faisal Islam"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2025,
+      "key": "/works/OL42410020W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 432,
+      "title": "Kotlin from Scratch"
+    },
+    {
+      "author_key": [
+        "OL7495201A"
+      ],
+      "author_name": [
+        "Neil Smyth"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2023,
+      "key": "/works/OL37614084W",
+      "language": [
+        "eng"
+      ],
+      "title": "Android Studio Hedgehog Essentials - Kotlin Edition"
+    },
+    {
+      "author_key": [
+        "OL7495301A",
+        "OL10155471A"
+      ],
+      "author_name": [
+        "Alexey Soshin",
+        "Anton Arhipov"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2022,
+      "key": "/works/OL27087524W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin Design Patterns and Best Practices - Second Edition"
+    },
+    {
+      "author_key": [
+        "OL7495816A",
+        "OL7496412A"
+      ],
+      "author_name": [
+        "Hardik Trivedi",
+        "Ameya Kulkarni"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2018,
+      "key": "/works/OL39657555W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 386,
+      "title": "Hands-On Serverless Applications with Kotlin"
+    },
+    {
+      "author_key": [
+        "OL7495301A"
+      ],
+      "author_name": [
+        "Alexey Soshin"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2018,
+      "key": "/works/OL39660936W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 310,
+      "title": "Hands-On Design Patterns with Kotlin"
+    },
+    {
+      "author_key": [
+        "OL9535717A"
+      ],
+      "author_name": [
+        "Raghavendra Rao K"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2018,
+      "key": "/works/OL25242738W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 388,
+      "title": "Kotlin for Enterprise Applications Using Java EE"
+    },
+    {
+      "author_key": [
+        "OL2639839A"
+      ],
+      "author_name": [
+        "Michael Fazio"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2021,
+      "key": "/works/OL25774330W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin and Android Development Featuring Jetpack",
+      "ratings_average": 5,
+      "ratings_count": 1
+    },
+    {
+      "author_key": [
+        "OL8010072A",
+        "OL10807555A",
+        "OL3946561A",
+        "OL11342761A"
+      ],
+      "author_name": [
+        "raywenderlich Tutorial Team",
+        "Kevin D. Moore",
+        "Carlos Mota",
+        "Saeed Taheri"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2022,
+      "key": "/works/OL31044206W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin Multiplatform by Tutorials"
+    },
+    {
+      "author_key": [
+        "OL10789388A",
+        "OL10258427A"
+      ],
+      "author_name": [
+        "Duy Thanh Tran",
+        "Jun-Ho Huh"
+      ],
+      "edition_count": 5,
+      "first_publish_year": 2022,
+      "key": "/works/OL29171218W",
+      "language": [
+        "eng"
+      ],
+      "title": "Principles, Policies, and Applications of Kotlin Programming"
+    },
+    {
+      "author_key": [
+        "OL8010072A",
+        "OL9645051A"
+      ],
+      "author_name": [
+        "raywenderlich Tutorial Team",
+        "Alex Sullivan"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2019,
+      "key": "/works/OL26041111W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 446,
+      "title": "Reactive Programming with Kotlin"
+    },
+    {
+      "author_key": [
+        "OL830759A"
+      ],
+      "author_name": [
+        "Horton, John"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2019,
+      "key": "/works/OL37484545W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 700,
+      "title": "Android Programming with Kotlin for Beginners"
+    },
+    {
+      "author_key": [
+        "OL7495146A"
+      ],
+      "author_name": [
+        "Juan Antonio Medina Iglesias"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2018,
+      "key": "/works/OL39658678W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 414,
+      "title": "Hands-On Microservices with Kotlin"
+    },
+    {
+      "author_key": [
+        "OL7494720A"
+      ],
+      "author_name": [
+        "Ted Hagos"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2018,
+      "key": "/works/OL37483009W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 704,
+      "title": "Learn Android Studio 3 with Kotlin"
+    },
+    {
+      "author_key": [
+        "OL7782688A"
+      ],
+      "author_name": [
+        "Sunny Chanday"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2018,
+      "key": "/works/OL40385612W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 44,
+      "title": "Create an Android App in Kotlin"
+    },
+    {
+      "author_key": [
+        "OL10519550A",
+        "OL7495294A"
+      ],
+      "author_name": [
+        "Abid Khan",
+        "Igor Kucherenko"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2018,
+      "key": "/works/OL28336475W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 370,
+      "title": "Hands-On Object-Oriented Programming with Kotlin"
+    },
+    {
+      "author_key": [
+        "OL10874424A",
+        "OL10874425A",
+        "OL10874426A"
+      ],
+      "author_name": [
+        "Riya Patel",
+        "Khyati Patel",
+        "Gulab Chand Tejwani"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2017,
+      "key": "/works/OL29441178W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin : Smart Way to Start Tech Journey"
+    },
+    {
+      "author_key": [
+        "OL15053286A"
+      ],
+      "author_name": [
+        "Mounir Boussetta"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2023,
+      "key": "/works/OL42538615W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 392,
+      "title": "Building Kotlin Applications"
+    },
+    {
+      "author_key": [
+        "OL7495201A"
+      ],
+      "author_name": [
+        "Neil Smyth"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2020,
+      "key": "/works/OL27083367W",
+      "language": [
+        "eng"
+      ],
+      "title": "Android Studio 3. 6 Development Essentials - Kotlin Edition"
+    },
+    {
+      "author_key": [
+        "OL14260495A"
+      ],
+      "author_name": [
+        "Milos Vasi&#263;"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2018,
+      "key": "/works/OL39664718W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 310,
+      "title": "Building Applications with Spring 5 and Kotlin"
+    },
+    {
+      "author_key": [
+        "OL7496423A"
+      ],
+      "author_name": [
+        "Marko Devcic"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2018,
+      "key": "/works/OL39656415W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 178,
+      "title": "Kotlin Quick Start Guide"
+    },
+    {
+      "author_key": [
+        "OL8010072A",
+        "OL9653008A",
+        "OL9653013A"
+      ],
+      "author_name": [
+        "raywenderlich Tutorial Team",
+        "Irina Galata",
+        "Matei Suica"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2019,
+      "key": "/works/OL25550351W",
+      "language": [
+        "eng"
+      ],
+      "title": "Data Structures & Algorithms in Kotlin (First Edition)"
+    },
+    {
+      "author_key": [
+        "OL15053707A"
+      ],
+      "author_name": [
+        "Myles Bennett"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2024,
+      "key": "/works/OL42539513W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 410,
+      "title": "Scalable Android Applications in Kotlin"
+    },
+    {
+      "author_key": [
+        "OL7495201A"
+      ],
+      "author_name": [
+        "Neil Smyth"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2020,
+      "key": "/works/OL37485810W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 822,
+      "title": "Android Studio 4.1 Development Essentials - Kotlin Edition"
+    },
+    {
+      "author_key": [
+        "OL7495201A"
+      ],
+      "author_name": [
+        "Neil Smyth"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2020,
+      "key": "/works/OL37485809W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 816,
+      "title": "Android Studio 4.0 Development Essentials - Kotlin Edition"
+    },
+    {
+      "author_key": [
+        "OL842022A"
+      ],
+      "author_name": [
+        "Ben Davies"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2022,
+      "key": "/works/OL31062904W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin Programming for Beginners"
+    },
+    {
+      "author_key": [
+        "OL7495115A",
+        "OL7495116A"
+      ],
+      "author_name": [
+        "Chandra Sekhar Nayak",
+        "Rivu Chakraborty"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2019,
+      "key": "/works/OL39664057W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 220,
+      "title": "Hands-On Data Structures and Algorithms with Kotlin"
+    },
+    {
+      "author_key": [
+        "OL7494787A"
+      ],
+      "author_name": [
+        "Peter Sommerhoff"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2021,
+      "key": "/works/OL26518867W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin for Android App Development (Instructor Notes)"
+    },
+    {
+      "author_key": [
+        "OL7495201A"
+      ],
+      "author_name": [
+        "Neil Smyth"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2020,
+      "key": "/works/OL37485807W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 816,
+      "title": "Android Studio 3.6 Development Essentials - Kotlin Edition"
+    },
+    {
+      "author_key": [
+        "OL10790783A"
+      ],
+      "author_name": [
+        "Noah George"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2022,
+      "key": "/works/OL32516600W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin Programming for Beginners : How to Build Mobile and Server-Side Applications from Scratch Using the Kotlin Programming Language"
+    },
+    {
+      "author_key": [
+        "OL15056869A"
+      ],
+      "author_name": [
+        "Jason (Tsz Shun) Chow"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2024,
+      "key": "/works/OL42546655W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 462,
+      "title": "Software Architecture with Kotlin"
+    },
+    {
+      "author_key": [
+        "OL10609856A"
+      ],
+      "author_name": [
+        "Teddy Geronimo Hagos"
+      ],
+      "cover_edition_key": "OL39273745M",
+      "cover_i": 13231365,
+      "edition_count": 1,
+      "first_publish_year": 2023,
+      "key": "/works/OL28625962W",
+      "language": [
+        "eng"
+      ],
+      "title": "Learn Kotlin for Spring Development"
+    },
+    {
+      "author_key": [
+        "OL7555551A"
+      ],
+      "author_name": [
+        "Michael Fordham"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2017,
+      "key": "/works/OL29483161W",
+      "language": [
+        "eng"
+      ],
+      "title": "Kotlin Development for Android : (Create Your Own App)"
+    },
+    {
+      "author_key": [
+        "OL10839556A"
+      ],
+      "author_name": [
+        "August Lilleaas"
+      ],
+      "cover_edition_key": "OL40319656M",
+      "cover_i": 13210131,
+      "edition_count": 1,
+      "first_publish_year": 2023,
+      "key": "/works/OL29328825W",
+      "language": [
+        "eng"
+      ],
+      "title": "Pro Kotlin Web Apps from Scratch"
+    },
+    {
+      "author_key": [
+        "OL7200493A"
+      ],
+      "author_name": [
+        "Tim Lavers"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2021,
+      "key": "/works/OL27405441W",
+      "language": [
+        "eng"
+      ],
+      "title": "Learn to Program with Kotlin"
+    },
+    {
+      "author_key": [
+        "OL16043400A"
+      ],
+      "author_name": [
+        "Rob Rockwell"
+      ],
+      "edition_count": 3,
+      "first_publish_year": 2025,
+      "key": "/works/OL44599574W",
+      "language": [
+        "eng"
+      ],
+      "title": "Rockstar Programmer"
+    },
+    {
+      "author_key": [
+        "OL9810822A"
+      ],
+      "author_name": [
+        "Harun Wangereka"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2024,
+      "key": "/works/OL38616745W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 370,
+      "title": "Mastering Kotlin for Android 14"
+    },
+    {
+      "author_key": [
+        "OL10215128A"
+      ],
+      "author_name": [
+        "Robert Nagy"
+      ],
+      "cover_edition_key": "OL37037488M",
+      "cover_i": 12616708,
+      "edition_count": 2,
+      "first_publish_year": 2022,
+      "key": "/works/OL27288981W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 184,
+      "title": "Simplifying Application Development with Kotlin Multiplatform Mobile"
+    },
+    {
+      "author_key": [
+        "OL8010072A",
+        "OL428143A"
+      ],
+      "author_name": [
+        "raywenderlich Tutorial Team",
+        "Massimo Carli"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2022,
+      "key": "/works/OL28063205W",
+      "language": [
+        "eng"
+      ],
+      "title": "Functional Programming in Kotlin by Tutorials"
+    },
+    {
+      "author_key": [
+        "OL7495201A"
+      ],
+      "author_name": [
+        "Neil Smyth"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2022,
+      "key": "/works/OL27208278W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 502,
+      "title": "Jetpack Compose Essentials"
+    },
+    {
+      "author_key": [
+        "OL9794359A",
+        "OL9794360A",
+        "OL7497826A"
+      ],
+      "author_name": [
+        "Dart R. Swift",
+        "Pandas C. Perl",
+        "Ray Yao"
+      ],
+      "edition_count": 1,
+      "first_publish_year": 2020,
+      "key": "/works/OL36099485W",
+      "language": [
+        "eng"
+      ],
+      "title": "KOTLIN in 8 Hours, for Beginners, Learn Coding Fast!"
+    },
+    {
+      "author_key": [
+        "OL13895657A"
+      ],
+      "author_name": [
+        "Gema Socorro Rodríguez"
+      ],
+      "edition_count": 2,
+      "first_publish_year": 2024,
+      "key": "/works/OL38622308W",
+      "language": [
+        "eng"
+      ],
+      "number_of_pages_median": 410,
+      "title": "Thriving in Android Development Using Kotlin"
+    }
+  ]
+}

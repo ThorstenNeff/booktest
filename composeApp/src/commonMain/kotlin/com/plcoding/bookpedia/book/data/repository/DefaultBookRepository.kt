@@ -1,7 +1,9 @@
 package com.plcoding.bookpedia.book.data.repository
 
 import androidx.sqlite.SQLiteException
+import cmp_bookpedia.composeapp.generated.resources.Res
 import com.plcoding.bookpedia.book.data.database.FavoriteBookDao
+import com.plcoding.bookpedia.book.data.dto.SearchResponseDto
 import com.plcoding.bookpedia.book.data.mappers.toBook
 import com.plcoding.bookpedia.book.data.mappers.toBookEntity
 import com.plcoding.bookpedia.book.data.network.RemoteBookDataSource
@@ -13,12 +15,33 @@ import com.plcoding.bookpedia.core.domain.Result
 import com.plcoding.bookpedia.core.domain.map
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
+import kotlinx.serialization.json.Json
+import org.jetbrains.compose.resources.ExperimentalResourceApi
 
 class DefaultBookRepository(
     private val remoteBookDataSource: RemoteBookDataSource,
     private val favoriteBookDao: FavoriteBookDao
 ): BookRepository {
+    
+    private val json = Json { ignoreUnknownKeys = true }
+    
+    @OptIn(ExperimentalResourceApi::class)
     override suspend fun searchBooks(query: String): Result<List<Book>, DataError.Remote> {
+        // If query contains "kotlin", load from local JSON file
+        println("loadjson  searchBooks $query")
+        if (query.contains("kotlin", ignoreCase = true)) {
+            println("loadjson called")
+            return try {
+                val jsonBytes = Res.readBytes("files/books.json")
+                val jsonString = jsonBytes.decodeToString()
+                val searchResponse = json.decodeFromString<SearchResponseDto>(jsonString)
+                
+                Result.Success(searchResponse.results.map { it.toBook() })
+            } catch (e: Exception) {
+                Result.Error(DataError.Remote.UNKNOWN)
+            }
+        }
+        
         return remoteBookDataSource
             .searchBooks(query)
             .map { dto ->
