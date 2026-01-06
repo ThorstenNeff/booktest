@@ -25,6 +25,10 @@ import com.plcoding.bookpedia.book.presentation.SelectedBookViewModel
 import com.plcoding.bookpedia.book.presentation.book_detail.BookDetailAction
 import com.plcoding.bookpedia.book.presentation.book_detail.BookDetailScreenRoot
 import com.plcoding.bookpedia.book.presentation.book_detail.BookDetailViewModel
+import com.plcoding.bookpedia.book.presentation.book_detail.info.memorablePasswords
+import com.plcoding.bookpedia.book.presentation.book_detail.info.TestConfig
+import com.plcoding.bookpedia.book.presentation.book_detail.info.infoModule
+import com.plcoding.bookpedia.book.presentation.book_detail.info.testModule
 import com.plcoding.bookpedia.book.presentation.book_list.BookListScreenRoot
 import com.plcoding.bookpedia.book.presentation.book_list.BookListViewModel
 import org.jetbrains.compose.ui.tooling.preview.Preview
@@ -78,6 +82,13 @@ fun App() {
                     val viewModel = koinViewModel<BookDetailViewModel>()
                     val selectedBook by selectedBookViewModel.selectedBook.collectAsStateWithLifecycle()
 
+                    val modules = remember {
+                        listOf(
+                            infoModule,
+                            testModule(TestConfig(testString = memorablePasswords.random()))
+                        )
+                    }
+
                     LaunchedEffect(selectedBook) {
                         selectedBook?.let {
                             viewModel.onAction(BookDetailAction.OnSelectedBookChange(it))
@@ -88,7 +99,8 @@ fun App() {
                         viewModel = viewModel,
                         onBackClick = {
                             navController.navigateUp()
-                        }
+                        },
+                        modules = modules
                     )
                 }
             }

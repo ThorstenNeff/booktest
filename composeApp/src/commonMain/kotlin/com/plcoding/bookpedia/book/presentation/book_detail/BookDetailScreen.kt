@@ -3,7 +3,6 @@
 package com.plcoding.bookpedia.book.presentation.book_detail
 
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -11,7 +10,6 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.rememberScrollState
@@ -23,12 +21,10 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -43,40 +39,19 @@ import com.plcoding.bookpedia.book.presentation.book_detail.components.BlurredIm
 import com.plcoding.bookpedia.book.presentation.book_detail.components.BookChip
 import com.plcoding.bookpedia.book.presentation.book_detail.components.ChipSize
 import com.plcoding.bookpedia.book.presentation.book_detail.components.TitledContent
-import com.plcoding.bookpedia.book.presentation.book_detail.info.TestConfig
 import com.plcoding.bookpedia.book.presentation.book_detail.info.TestRepository
-import com.plcoding.bookpedia.book.presentation.book_detail.info.infoModule
-import com.plcoding.bookpedia.book.presentation.book_detail.info.testModule
 import com.plcoding.bookpedia.core.presentation.SandYellow
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.KoinIsolatedContext
 import org.koin.compose.koinInject
 import org.koin.dsl.koinApplication
 import kotlin.math.round
-import kotlin.random.Random
-
-private val memorablePasswords = listOf(
-    "fish-eye",
-    "gold-ring",
-    "blue-sky",
-    "red-moon",
-    "green-leaf",
-    "bright-star",
-    "warm-sun",
-    "cold-snow",
-    "wild-river",
-    "deep-ocean",
-    "tall-mountain",
-    "fast-wind",
-    "quiet-forest",
-    "sweet-melody",
-    "gentle-rain"
-)
 
 @Composable
 fun BookDetailScreenRoot(
     viewModel: BookDetailViewModel,
     onBackClick: () -> Unit,
+    modules: List<org.koin.core.module.Module>,
     content: @Composable () -> Unit = {
         val state by viewModel.state.collectAsStateWithLifecycle()
 
@@ -94,10 +69,7 @@ fun BookDetailScreenRoot(
 ) {
     KoinIsolatedContext(
         context = koinApplication {
-            modules(
-                infoModule,
-                testModule(TestConfig(testString = memorablePasswords.random()))
-            )
+            modules(modules)
         },
         content = content
     )
