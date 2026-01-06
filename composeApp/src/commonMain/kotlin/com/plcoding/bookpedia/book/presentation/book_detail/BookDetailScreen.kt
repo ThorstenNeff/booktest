@@ -23,10 +23,12 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -40,26 +42,63 @@ import com.plcoding.bookpedia.book.presentation.book_detail.components.BlurredIm
 import com.plcoding.bookpedia.book.presentation.book_detail.components.BookChip
 import com.plcoding.bookpedia.book.presentation.book_detail.components.ChipSize
 import com.plcoding.bookpedia.book.presentation.book_detail.components.TitledContent
+import com.plcoding.bookpedia.book.presentation.book_detail.info.TestConfig
+import com.plcoding.bookpedia.book.presentation.book_detail.info.TestRepository
+import com.plcoding.bookpedia.book.presentation.book_detail.info.infoModule
+import com.plcoding.bookpedia.book.presentation.book_detail.info.testModule
 import com.plcoding.bookpedia.core.presentation.SandYellow
 import org.jetbrains.compose.resources.stringResource
+import org.koin.compose.KoinIsolatedContext
+import org.koin.compose.koinInject
+import org.koin.dsl.koinApplication
 import kotlin.math.round
+import kotlin.random.Random
+
+private val memorablePasswords = listOf(
+    "fish-eye",
+    "gold-ring",
+    "blue-sky",
+    "red-moon",
+    "green-leaf",
+    "bright-star",
+    "warm-sun",
+    "cold-snow",
+    "wild-river",
+    "deep-ocean",
+    "tall-mountain",
+    "fast-wind",
+    "quiet-forest",
+    "sweet-melody",
+    "gentle-rain"
+)
 
 @Composable
 fun BookDetailScreenRoot(
     viewModel: BookDetailViewModel,
-    onBackClick: () -> Unit
-) {
-    val state by viewModel.state.collectAsStateWithLifecycle()
+    onBackClick: () -> Unit,
+    content: @Composable () -> Unit = {
+        val state by viewModel.state.collectAsStateWithLifecycle()
 
-    BookDetailScreen(
-        state = state,
-        onAction = { action ->
-            when(action) {
-                is BookDetailAction.OnBackClick -> onBackClick()
-                else -> Unit
+        BookDetailScreen(
+            state = state,
+            onAction = { action ->
+                when(action) {
+                    is BookDetailAction.OnBackClick -> onBackClick()
+                    else -> Unit
+                }
+                viewModel.onAction(action)
             }
-            viewModel.onAction(action)
-        }
+        )
+    }
+) {
+    KoinIsolatedContext(
+        context = koinApplication {
+            modules(
+                infoModule,
+                testModule(TestConfig(testString = memorablePasswords.random()))
+            )
+        },
+        content = content
     )
 }
 
@@ -68,6 +107,7 @@ private fun BookDetailScreen(
     state: BookDetailState,
     onAction: (BookDetailAction) -> Unit
 ) {
+    val testRepository: TestRepository = koinInject()
     BlurredImageBackground(
         imageUrl = state.book?.imageUrl,
         isFavorite = state.isFavorite,
@@ -100,6 +140,13 @@ private fun BookDetailScreen(
                     text = state.book.authors.joinToString(),
                     style = MaterialTheme.typography.titleMedium,
                     textAlign = TextAlign.Center
+                )
+                Text(
+                    text = "🔐 ${testRepository.getPrimaryString()}",
+                    style = MaterialTheme.typography.bodyLarge,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.padding(top = 8.dp),
+                    color = Color.Gray
                 )
                 Row(
                     modifier = Modifier
