@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
@@ -25,6 +26,7 @@ import com.plcoding.bookpedia.book.presentation.SelectedBookViewModel
 import com.plcoding.bookpedia.book.presentation.book_detail.BookDetailAction
 import com.plcoding.bookpedia.book.presentation.book_detail.BookDetailScreenRoot
 import com.plcoding.bookpedia.book.presentation.book_detail.BookDetailViewModel
+import com.plcoding.bookpedia.book.presentation.book_detail.info.KoinApplicationHolder
 import com.plcoding.bookpedia.book.presentation.book_detail.info.memorablePasswords
 import com.plcoding.bookpedia.book.presentation.book_detail.info.TestConfig
 import com.plcoding.bookpedia.book.presentation.book_detail.info.infoModule

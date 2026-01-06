@@ -39,12 +39,12 @@ import com.plcoding.bookpedia.book.presentation.book_detail.components.BlurredIm
 import com.plcoding.bookpedia.book.presentation.book_detail.components.BookChip
 import com.plcoding.bookpedia.book.presentation.book_detail.components.ChipSize
 import com.plcoding.bookpedia.book.presentation.book_detail.components.TitledContent
+import com.plcoding.bookpedia.book.presentation.book_detail.info.KoinApplicationHolder
 import com.plcoding.bookpedia.book.presentation.book_detail.info.TestRepository
 import com.plcoding.bookpedia.core.presentation.SandYellow
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.KoinIsolatedContext
 import org.koin.compose.koinInject
-import org.koin.dsl.koinApplication
 import kotlin.math.round
 
 @Composable
@@ -67,10 +67,10 @@ fun BookDetailScreenRoot(
         )
     }
 ) {
+    val koinInstance = KoinApplicationHolder.getOrInitialize(modules)
+
     KoinIsolatedContext(
-        context = koinApplication {
-            modules(modules)
-        },
+        context = koinInstance,
         content = content
     )
 }
